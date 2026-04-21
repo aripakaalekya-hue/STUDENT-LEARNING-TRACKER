@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Student</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>Student Details</h2>
+
+<p><strong>Name:</strong> {{ student.name }}</p>
+<p><strong>Subject:</strong> {{ student.subject }}</p>
+<p><strong>Progress:</strong> {{ student.progress }}%</p>
+
+<a href="/">⬅ Back</a>
+
+</body>
+</html>
